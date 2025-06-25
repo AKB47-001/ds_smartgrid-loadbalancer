@@ -7,4 +7,5 @@ RUN pip install flask requests
 #CMD ["python", "main.py"]
 ENV FLASK_APP=main.py
 EXPOSE 5000
+
 CMD ["flask", "run", "--host=0.0.0.0"]
